@@ -1,0 +1,66 @@
+{
+  "returnHeader": {
+    "ReturnTs": "2026-02-01T09:00:00",
+    "TaxYr": "2025",
+    "TaxPeriodBeginDt": "2025-01-01",
+    "TaxPeriodEndDt": "2025-12-31",
+    "ReturnTypeCd": "W-2",
+    "SoftwareId": "11111111",
+    "SoftwareVersionNum": "01000000",
+    "OriginatorGrp": {
+      "EFIN": "123456",
+      "OriginatorTypeCd": "OnlineFiler"
+    },
+    "Filer": {
+      "PrimarySSN": "400-00-1040",
+      "PrimaryNameControlTxt": "SMIT",
+      "PrimaryNameLine": {
+        "PersonFirstNm": "John",
+        "PersonLastNm": "Smith"
+      },
+      "USAddress": {
+        "AddressLine1Txt": "742 Evergreen Terrace",
+        "CityNm": "Springfield",
+        "StateAbbreviationCd": "IL",
+        "ZIPCd": "62701"
+      }
+    }
+  },
+  "formData": {
+    "documentId": "W2-DOC-001",
+    "softwareId": "11111111",
+    "softwareVersionNum": "01000000",
+    "EmployerEIN": "94-1234567",
+    "EmployerNameControlTxt": "ACME",
+    "EmployerNameLine": {
+      "BusinessNameLine1Txt": "Acme Corporation"
+    },
+    "EmployerUSAddress": {
+      "AddressLine1Txt": "100 Business Blvd",
+      "CityNm": "Chicago",
+      "StateAbbreviationCd": "IL",
+      "ZIPCd": "60601"
+    },
+    "EmployeeSSN": "400-00-1040",
+    "EmployeeNameLine": {
+      "PersonFirstNm": "John",
+      "PersonLastNm": "Smith"
+    },
+    "EmployeeUSAddress": {
+      "AddressLine1Txt": "742 Evergreen Terrace",
+      "CityNm": "Springfield",
+      "StateAbbreviationCd": "IL",
+      "ZIPCd": "62701"
+    },
+    "WagesAmt": 87500,
+    "WithholdingAmt": 15800,
+    "SocialSecurityWagesAmt": 87500,
+    "SocialSecurityTaxAmt": 5425,
+    "MedicareWagesAndTipsAmt": 87500,
+    "MedicareTaxWithheldAmt": 1269,
+    "StateAbbreviationCd": "IL",
+    "EmployerStateIdNum": "IL-123456",
+    "StateWagesAmt": 87500,
+    "StateIncomeTaxAmt": 4375
+  }
+}

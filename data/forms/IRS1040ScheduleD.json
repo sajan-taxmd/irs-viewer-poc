@@ -1,0 +1,69 @@
+{
+  "returnHeader": {
+    "ReturnTs": "2026-04-15T14:22:00",
+    "TaxYr": "2025",
+    "TaxPeriodBeginDt": "2025-01-01",
+    "TaxPeriodEndDt": "2025-12-31",
+    "ReturnTypeCd": "1040",
+    "SoftwareId": "11111111",
+    "SoftwareVersionNum": "01000000",
+    "OriginatorGrp": {
+      "EFIN": "123456",
+      "OriginatorTypeCd": "OnlineFiler"
+    },
+    "Filer": {
+      "PrimarySSN": "400-00-1040",
+      "PrimaryNameControlTxt": "SMIT",
+      "PrimaryNameLine": {
+        "PersonFirstNm": "John",
+        "PersonLastNm": "Smith"
+      },
+      "USAddress": {
+        "AddressLine1Txt": "742 Evergreen Terrace",
+        "CityNm": "Springfield",
+        "StateAbbreviationCd": "IL",
+        "ZIPCd": "62701"
+      }
+    }
+  },
+  "formData": {
+    "documentId": "SCHD-DOC-001",
+    "softwareId": "11111111",
+    "softwareVersionNum": "01000000",
+    "ShortTermCapitalGainAndLossGrp": [
+      {
+        "PropertyDesc": "APPLE INC",
+        "DateAcquiredTxt": "2025-03-15",
+        "DateSoldOrDisposedTxt": "2025-09-20",
+        "SalesPrice": 12500,
+        "CostOrOtherBasisAmt": 8000,
+        "GainOrLossAmt": 4500
+      },
+      {
+        "PropertyDesc": "GOOGLE LLC",
+        "DateAcquiredTxt": "2025-01-10",
+        "DateSoldOrDisposedTxt": "2025-06-15",
+        "SalesPrice": 5800,
+        "CostOrOtherBasisAmt": 6200,
+        "GainOrLossAmt": -400
+      }
+    ],
+    "TotShortTermSalesPrcAmt": 18300,
+    "TotShortTermCostOrOtherBssAmt": 14200,
+    "TotShortTermGainOrLossAmt": 4100,
+    "LongTermCapitalGainAndLossGrp": [
+      {
+        "PropertyDesc": "VANGUARD S&P 500 ETF",
+        "DateAcquiredTxt": "2022-06-01",
+        "DateSoldOrDisposedTxt": "2025-11-30",
+        "SalesPrice": 45000,
+        "CostOrOtherBasisAmt": 30000,
+        "GainOrLossAmt": 15000
+      }
+    ],
+    "TotLongTermSalesPrcAmt": 45000,
+    "TotLongTermCostOrOtherBssAmt": 30000,
+    "TotLongTermGainOrLossAmt": 15000,
+    "TotalCapitalGainOrLossAmt": 19100
+  }
+}

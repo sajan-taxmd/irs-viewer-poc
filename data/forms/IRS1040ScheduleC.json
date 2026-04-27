@@ -1,0 +1,56 @@
+{
+  "returnHeader": {
+    "ReturnTs": "2026-04-15T14:22:00",
+    "TaxYr": "2025",
+    "TaxPeriodBeginDt": "2025-01-01",
+    "TaxPeriodEndDt": "2025-12-31",
+    "ReturnTypeCd": "1040",
+    "SoftwareId": "11111111",
+    "SoftwareVersionNum": "01000000",
+    "OriginatorGrp": {
+      "EFIN": "123456",
+      "OriginatorTypeCd": "OnlineFiler"
+    },
+    "Filer": {
+      "PrimarySSN": "400-00-1040",
+      "PrimaryNameControlTxt": "SMIT",
+      "PrimaryNameLine": {
+        "PersonFirstNm": "John",
+        "PersonLastNm": "Smith"
+      },
+      "USAddress": {
+        "AddressLine1Txt": "742 Evergreen Terrace",
+        "CityNm": "Springfield",
+        "StateAbbreviationCd": "IL",
+        "ZIPCd": "62701"
+      }
+    }
+  },
+  "formData": {
+    "documentId": "SCHC-DOC-001",
+    "softwareId": "11111111",
+    "softwareVersionNum": "01000000",
+    "ProprietorNm": "John Smith",
+    "PrincipalBusinessActivityCd": "541511",
+    "BusinessNm": "Smith Consulting LLC",
+    "BusinessAddressLine1Txt": "742 Evergreen Terrace",
+    "BusinessCityNm": "Springfield",
+    "BusinessStateAbbreviationCd": "IL",
+    "BusinessZIPCd": "62701",
+    "AccountingMethodCd": "Cash",
+    "MaterialParticipationInd": "X",
+    "GrossReceiptsOrSalesAmt": 125000,
+    "ReturnsAndAllowancesAmt": 2500,
+    "GrossProfitAmt": 122500,
+    "GrossIncomeAmt": 122500,
+    "AdvertisingAmt": 3200,
+    "CarAndTruckExpensesAmt": 4800,
+    "InsuranceAmt": 1500,
+    "LegalAndProfessionalServiceAmt": 2000,
+    "OfficeExpenseAmt": 1800,
+    "TotalExpensesAmt": 38500,
+    "TentativeNetProfitLossAmt": 84000,
+    "NetProfitLossAmt": 84000,
+    "SelfEmploymentEarningsLossAmt": 84000
+  }
+}

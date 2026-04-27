@@ -1,0 +1,91 @@
+{
+  "returnHeader": {
+    "ReturnTs": "2026-04-15T14:22:00",
+    "TaxYr": "2025",
+    "TaxPeriodBeginDt": "2025-01-01",
+    "TaxPeriodEndDt": "2025-12-31",
+    "ReturnTypeCd": "1040",
+    "SoftwareId": "11111111",
+    "SoftwareVersionNum": "01000000",
+    "OriginatorGrp": {
+      "EFIN": "123456",
+      "OriginatorTypeCd": "OnlineFiler"
+    },
+    "PINEnteredByCd": "Taxpayer",
+    "SignatureOptionCd": "PIN",
+    "Filer": {
+      "PrimarySSN": "400-00-1040",
+      "PrimaryNameControlTxt": "SMIT",
+      "PrimaryNameLine": {
+        "PersonFirstNm": "John",
+        "PersonLastNm": "Smith"
+      },
+      "USAddress": {
+        "AddressLine1Txt": "742 Evergreen Terrace",
+        "CityNm": "Springfield",
+        "StateAbbreviationCd": "IL",
+        "ZIPCd": "62701"
+      }
+    }
+  },
+  "formData": {
+    "documentId": "IRS1040-DOC-001",
+    "softwareId": "11111111",
+    "softwareVersionNum": "01000000",
+    "IndividualReturnFilingStatusCd": "1",
+    "ExemptPrimaryInd": "X",
+    "TotalExemptPrimaryAndSpouseCnt": 1,
+    "DependentDetail": [
+      {
+        "DependentFirstNm": "Emily",
+        "DependentLastNm": "Smith",
+        "DependentNameControlTxt": "SMIT",
+        "DependentSSN": "400-00-2222",
+        "DependentRelationshipCd": "DAUGHTER",
+        "EligibleForChildTaxCreditInd": "X"
+      },
+      {
+        "DependentFirstNm": "Shelly",
+        "DependentLastNm": "Pelly",
+        "DependentNameControlTxt": "PELL",
+        "DependentSSN": "400-00-3333",
+        "DependentRelationshipCd": "SON",
+        "EligibleForChildTaxCreditInd": "X"
+      }
+    ],
+    "ChldWhoLivedWithYouCnt": 2,
+    "OtherDependentsListedCnt": 0,
+    "TotalExemptionsCnt": 3,
+    "WagesSalariesAndTipsAmt": 87500,
+    "TaxableInterestAmt": 342,
+    "TaxExemptInterestAmt": 50,
+    "OrdinaryDividendsAmt": 1200,
+    "QualifiedDividendsAmt": 950,
+    "StateLocalIncomeTaxRefundAmt": 325,
+    "CapitalGainLossAmt": 2800,
+    "TotalIncomeAmt": 92167,
+    "EducatorExpensesAmt": 250,
+    "StudentLoanInterestDedAmt": 1500,
+    "TotalAdjustmentsAmt": 1750,
+    "AdjustedGrossIncomeAmt": 90417,
+    "TotalItemizedOrStandardDedAmt": 14600,
+    "AGILessDeductionsAmt": 75817,
+    "TaxableIncomeAmt": 75817,
+    "TaxAmt": 12950,
+    "TotalTaxBeforeCrAndOthTaxesAmt": 12950,
+    "ChildTaxCreditAmt": 2000,
+    "TotalCreditsAmt": 2000,
+    "TaxLessCreditsAmt": 10950,
+    "TotalTaxAmt": 10950,
+    "WithholdingTaxAmt": 12800,
+    "TotalPaymentsAmt": 12800,
+    "OverpaidAmt": 1850,
+    "RefundAmt": 1850,
+    "RoutingTransitNum": "021000021",
+    "BankAccountTypeCd": "Checking",
+    "DepositorAccountNum": "000123456789",
+    "PrimaryOccupationTxt": "Software Engineer",
+    "DaytimePhoneNum": "2175550142",
+    "RefundAnticipationLoanCd": "NO BANK PRODUCT"
+  }
+}

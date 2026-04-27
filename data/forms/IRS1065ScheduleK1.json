@@ -1,0 +1,66 @@
+{
+  "returnHeader": {
+    "ReturnTs": "2026-03-15T10:00:00",
+    "TaxYr": "2025",
+    "TaxPeriodBeginDt": "2025-01-01",
+    "TaxPeriodEndDt": "2025-12-31",
+    "ReturnTypeCd": "1065",
+    "SoftwareId": "11111111",
+    "SoftwareVersionNum": "01000000",
+    "OriginatorGrp": {
+      "EFIN": "123456",
+      "OriginatorTypeCd": "ERO"
+    },
+    "Filer": {
+      "EIN": "12-3456789",
+      "BusinessNameControlTxt": "ABCP",
+      "BusinessNameLine": {
+        "BusinessNameLine1Txt": "ABC Partners LLC"
+      },
+      "USAddress": {
+        "AddressLine1Txt": "200 Commerce Street",
+        "CityNm": "Dallas",
+        "StateAbbreviationCd": "TX",
+        "ZIPCd": "75201"
+      }
+    }
+  },
+  "formData": {
+    "documentId": "K1P-DOC-001",
+    "softwareId": "11111111",
+    "softwareVersionNum": "01000000",
+    "TaxYear": "2025",
+    "PartnershipEIN": "12-3456789",
+    "PartnershipNameLine": {
+      "BusinessNameLine1Txt": "ABC Partners LLC"
+    },
+    "PartnershipUSAddress": {
+      "AddressLine1Txt": "200 Commerce Street",
+      "CityNm": "Dallas",
+      "StateAbbreviationCd": "TX",
+      "ZIPCd": "75201"
+    },
+    "PartnerSSN": "400-00-1040",
+    "PartnerNameLine": {
+      "PersonFirstNm": "John",
+      "PersonLastNm": "Smith"
+    },
+    "PartnerEntityTypeCd": "IND",
+    "GeneralOrLimitedPartnershipCd": "GP",
+    "ProfitSharingPct": "33.33",
+    "LossSharingPct": "33.33",
+    "CapitalSharingPct": "33.33",
+    "BeginningCapitalAccountAmt": 125000,
+    "CapitalContributedAmt": 0,
+    "CurrentYearNetIncomeLossAmt": 25833,
+    "OtherIncreasesAmt": 0,
+    "WithdrawalsAndDistributionsAmt": 20000,
+    "EndingCapitalAccountAmt": 130833,
+    "OrdinaryBusinessIncomeAmt": 25833,
+    "InterestIncomeAmt": 450,
+    "OrdinaryDividendsAmt": 200,
+    "NetShortTermCapitalGainLossAmt": 1000,
+    "NetLongTermCapitalGainLossAmt": 3500,
+    "Section179DeductionAmt": 2000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "returnHeader": {
+    "ReturnTs": "2026-04-15T14:22:00",
+    "TaxYr": "2025",
+    "TaxPeriodBeginDt": "2025-01-01",
+    "TaxPeriodEndDt": "2025-12-31",
+    "ReturnTypeCd": "1040",
+    "SoftwareId": "11111111",
+    "SoftwareVersionNum": "01000000",
+    "OriginatorGrp": {
+      "EFIN": "123456",
+      "OriginatorTypeCd": "OnlineFiler"
+    },
+    "Filer": {
+      "PrimarySSN": "400-00-1040",
+      "PrimaryNameControlTxt": "SMIT",
+      "PrimaryNameLine": {
+        "PersonFirstNm": "John",
+        "PersonLastNm": "Smith"
+      },
+      "USAddress": {
+        "AddressLine1Txt": "742 Evergreen Terrace",
+        "CityNm": "Springfield",
+        "StateAbbreviationCd": "IL",
+        "ZIPCd": "62701"
+      }
+    }
+  },
+  "formData": {
+    "documentId": "SCHE-DOC-001",
+    "softwareId": "11111111",
+    "softwareVersionNum": "01000000",
+    "RentalRealEstateAndRoyaltyGrp": [
+      {
+        "PropertyAddressLine1Txt": "100 Oak Street",
+        "PropertyCityNm": "Springfield",
+        "PropertyStateAbbreviationCd": "IL",
+        "PropertyZIPCd": "62702",
+        "PropertyTypeCd": "1",
+        "PersonalUseDaysCnt": 0,
+        "RentsReceivedAmt": 18000,
+        "AdvertisingAmt": 400,
+        "AutoAndTravelAmt": 600,
+        "CleaningAndMaintenanceAmt": 1200,
+        "InsuranceAmt": 900,
+        "MortgageInterestPaidAmt": 7200,
+        "LegalAndProfessionalFeesAmt": 500,
+        "DepreciationAndAmortizationAmt": 3600,
+        "TotalExpensesAmt": 14400,
+        "NetIncomeLossAmt": 3600
+      }
+    ],
+    "TotalRentalRealEstateRoyaltyIncomeOrLossAmt": 3600,
+    "PartnershipAndSCorporationGrp": [
+      {
+        "EntityNm": "ABC Partners LLC",
+        "EIN": "12-3456789",
+        "PassiveActivityInd": "X",
+        "OrdinaryIncomeOrLossAmt": 12500
+      }
+    ],
+    "TotalPartnershipSCorpIncomeAmt": 12500,
+    "TotalSupplementalIncomeOrLossAmt": 16100
+  }
+}
