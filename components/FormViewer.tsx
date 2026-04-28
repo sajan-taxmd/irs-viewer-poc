@@ -35,7 +35,7 @@ export default function FormViewer() {
       );
 
       const xml = buildFormXml(
-        selectedEntry.id,
+        selectedEntry.xmlRootElement ?? selectedEntry.id,
         formData,
         selectedEntry.appParams,
         selectedEntry.appProps,

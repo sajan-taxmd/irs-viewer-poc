@@ -1,0 +1,78 @@
+{
+  "returnHeader": {
+    "ReturnTs": "2026-04-15T10:30:00",
+    "TaxYr": "2025",
+    "TaxPeriodBeginDt": "2025-01-01",
+    "TaxPeriodEndDt": "2025-12-31",
+    "ReturnTypeCd": "1040",
+    "SoftwareId": "11111111",
+    "SoftwareVersionNum": "01000000",
+    "OriginatorGrp": {
+      "EFIN": "123456",
+      "OriginatorTypeCd": "OnlineFiler"
+    },
+    "PINEnteredByCd": "Taxpayer",
+    "SignatureOptionCd": "PIN",
+    "Filer": {
+      "PrimarySSN": "400-00-6701",
+      "PrimaryNameControlTxt": "JOHN",
+      "PrimaryNameLine": {
+        "PersonFirstNm": "Robert",
+        "PersonLastNm": "Johnson"
+      },
+      "SpouseSSN": "400-00-6702",
+      "SpouseNameControlTxt": "JOHN",
+      "SpouseNameLine": {
+        "PersonFirstNm": "Margaret",
+        "PersonLastNm": "Johnson"
+      },
+      "USAddress": {
+        "AddressLine1Txt": "88 Willow Creek Drive",
+        "CityNm": "Scottsdale",
+        "StateAbbreviationCd": "AZ",
+        "ZIPCd": "85251"
+      }
+    }
+  },
+  "formData": {
+    "documentId": "IRS1040SR-DOC-001",
+    "softwareId": "11111111",
+    "softwareVersionNum": "01000000",
+    "Form1040SRInd": "X",
+    "IndividualReturnFilingStatusCd": "2",
+    "ExemptPrimaryInd": "X",
+    "ExemptSpouseInd": "X",
+    "TotalExemptPrimaryAndSpouseCnt": 2,
+    "TotalExemptionsCnt": 2,
+    "SocialSecurityBnftAmt": 34200,
+    "TaxableSocSecAmt": 29070,
+    "PensionsAnnuitiesAmt": 48000,
+    "TaxablePensionsAndAnnuitiesAmt": 48000,
+    "TaxableInterestAmt": 1850,
+    "TaxExemptInterestAmt": 400,
+    "OrdinaryDividendsAmt": 3200,
+    "QualifiedDividendsAmt": 2800,
+    "CapitalGainLossAmt": 4500,
+    "TotalIncomeAmt": 87420,
+    "TotalAdjustmentsAmt": 0,
+    "AdjustedGrossIncomeAmt": 87420,
+    "TotalItemizedOrStandardDedAmt": 32300,
+    "AGILessDeductionsAmt": 55120,
+    "TaxableIncomeAmt": 55120,
+    "TaxAmt": 6180,
+    "TotalTaxBeforeCrAndOthTaxesAmt": 6180,
+    "TotalCreditsAmt": 0,
+    "TaxLessCreditsAmt": 6180,
+    "TotalTaxAmt": 6180,
+    "WithholdingTaxAmt": 7200,
+    "TotalPaymentsAmt": 7200,
+    "OverpaidAmt": 1020,
+    "RefundAmt": 1020,
+    "RoutingTransitNum": "021000021",
+    "BankAccountTypeCd": "Checking",
+    "DepositorAccountNum": "000987654321",
+    "PrimaryOccupationTxt": "Retired",
+    "SpouseOccupationTxt": "Retired",
+    "DaytimePhoneNum": "4805550167"
+  }
+}

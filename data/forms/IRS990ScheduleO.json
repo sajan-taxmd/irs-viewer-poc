@@ -1,0 +1,14 @@
+{
+  "returnHeader": {
+    "ReturnTs": "2026-04-15T10:00:00",
+    "TaxYr": "2025",
+    "TaxPeriodBeginDt": "2025-01-01",
+    "TaxPeriodEndDt": "2025-12-31",
+    "ReturnTypeCd": "990",
+    "SoftwareId": "11111111",
+    "SoftwareVersionNum": "01000000"
+  },
+  "formData": {
+    "documentId": "IRS990ScheduleO-DOC-001"
+  }
+}
