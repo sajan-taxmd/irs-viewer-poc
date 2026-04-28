@@ -9,15 +9,39 @@ import { transformForm } from '@/lib/xslTransform.js';
 
 type Status = 'idle' | 'loading' | 'ready' | 'error';
 
+// Derive sorted unique years from the registry
+const AVAILABLE_YEARS = [...new Set(FORM_REGISTRY.map((f) => f.taxYear))].sort();
+const DEFAULT_YEAR = '2025';
+
 export default function FormViewer() {
-  const [selectedId, setSelectedId] = useState<string>(FORM_REGISTRY[0].id);
+  const [selectedYear, setSelectedYear] = useState<string>(DEFAULT_YEAR);
+  const [selectedId, setSelectedId] = useState<string>(
+    FORM_REGISTRY.find((f) => f.taxYear === DEFAULT_YEAR)?.id ?? FORM_REGISTRY[0].id,
+  );
   const [submissionId, setSubmissionId] = useState<string>('DEMO-001');
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string>('');
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
+  // Forms available for the currently selected year
+  const yearForms = FORM_REGISTRY.filter((f) => f.taxYear === selectedYear);
+
   const selectedEntry: FormEntry =
-    FORM_REGISTRY.find((f) => f.id === selectedId) ?? FORM_REGISTRY[0];
+    yearForms.find((f) => f.id === selectedId) ?? yearForms[0];
+
+  // When year changes, reset to first form of that year
+  useEffect(() => {
+    const first = FORM_REGISTRY.find((f) => f.taxYear === selectedYear);
+    if (first) setSelectedId(first.id);
+    setStatus('idle');
+    setErrorMsg('');
+  }, [selectedYear]);
+
+  // Reset status when the form selection changes
+  useEffect(() => {
+    setStatus('idle');
+    setErrorMsg('');
+  }, [selectedId]);
 
   const loadForm = useCallback(async () => {
     if (!submissionId.trim()) {
@@ -32,6 +56,7 @@ export default function FormViewer() {
       const { returnHeader, formData } = await fetchFormData(
         submissionId.trim(),
         selectedEntry.id,
+        selectedEntry.taxYear,
       );
 
       const xml = buildFormXml(
@@ -40,6 +65,7 @@ export default function FormViewer() {
         selectedEntry.appParams,
         selectedEntry.appProps,
         returnHeader,
+        selectedEntry.taxYear,
       );
 
       const html = await transformForm(xml, selectedEntry.xslUrl);
@@ -61,12 +87,6 @@ export default function FormViewer() {
     }
   }, [selectedEntry, submissionId]);
 
-  // Reset status when the form selection changes
-  useEffect(() => {
-    setStatus('idle');
-    setErrorMsg('');
-  }, [selectedId]);
-
   const statusPill = {
     idle: { bg: 'bg-white/15', text: 'text-blue-200', label: 'Select a form and click Load' },
     loading: { bg: 'bg-white/15', text: 'text-blue-200', label: '⏳ Loading…' },
@@ -83,13 +103,28 @@ export default function FormViewer() {
           IRS
         </span>
 
+        {/* Year selector */}
+        <select
+          value={selectedYear}
+          onChange={(e) => setSelectedYear(e.target.value)}
+          className="w-24 shrink-0 bg-white/10 border border-white/25 text-white text-sm font-medium rounded px-2.5 py-1.5 appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400"
+          aria-label="Tax year"
+        >
+          {AVAILABLE_YEARS.map((yr) => (
+            <option key={yr} value={yr} className="bg-slate-800 text-white">
+              TY {yr}
+            </option>
+          ))}
+        </select>
+
         {/* Form selector */}
         <select
           value={selectedId}
           onChange={(e) => setSelectedId(e.target.value)}
           className="min-w-0 max-w-xs flex-1 bg-white/10 border border-white/25 text-white text-sm font-medium rounded px-2.5 py-1.5 appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400"
+          aria-label="IRS form"
         >
-          {FORM_REGISTRY.map((f) => (
+          {yearForms.map((f) => (
             <option key={f.id} value={f.id} className="bg-slate-800 text-white">
               {f.label}
             </option>
@@ -139,7 +174,7 @@ export default function FormViewer() {
           <div className="text-6xl select-none">📋</div>
           <p className="text-lg font-medium">No form loaded</p>
           <p className="text-sm">
-            Select a form, enter a Submission ID and click{' '}
+            Select a tax year and form, enter a Submission ID and click{' '}
             <strong className="text-slate-600">Load Form</strong>
           </p>
         </div>

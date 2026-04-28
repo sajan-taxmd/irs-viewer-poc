@@ -5,8 +5,8 @@
  * that IRS XSL stylesheets expect — with zero per-form boilerplate.
  *
  * Adding a new IRS form requires only:
- *   1. Drop the XSL + XSD files into /public/xsl/
- *   2. Add an entry to formRegistry.ts with id/label/xslUrl
+ *   1. Drop the XSL + XSD files into /public/xsl/{year}/
+ *   2. Add an entry to formRegistry.ts with id/label/xslUrl/taxYear
  *   3. The API returns { returnHeader, formData } JSON — this file serializes it
  *
  * Serialization rules:
@@ -95,6 +95,7 @@ export function buildFormXml(
   appParams: AppEnvelopeParams,
   appProps: AppProperties,
   returnHeader: Record<string, unknown>,
+  taxYear: string = '2025',
 ): string {
   const attrParts: string[] = [];
   const childParts: string[] = [];
@@ -128,7 +129,7 @@ export function buildFormXml(
     '<Parameters>' +
     (appParams.DocumentId ? `<DocumentId>${esc(appParams.DocumentId)}</DocumentId>` : '') +
     (appParams.Stage ? `<Stage>${esc(appParams.Stage)}</Stage>` : '') +
-    '<SubmissionVersion>20250</SubmissionVersion>' +
+    `<SubmissionVersion>${taxYear}0</SubmissionVersion>` +
     (appParams.AcceptanceStatus
       ? `<AcceptanceStatus>${esc(appParams.AcceptanceStatus)}</AcceptanceStatus>`
       : '') +
