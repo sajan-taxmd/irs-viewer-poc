@@ -89,6 +89,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040NR',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040NR.xsl',
+    xsdUrl: '/xsl/2025/IRS1040NR.xsd',
     appParams: {
       DocumentId: 'IRS1040NR-DOC-001',
       Stage: 'original',
@@ -103,6 +104,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040NR Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040NRScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS1040NRScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS1040NRScheduleA-DOC-001',
       Stage: 'original',
@@ -117,6 +119,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040NR Schedule N E C',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040NRScheduleNEC.xsl',
+    xsdUrl: '/xsl/2025/IRS1040NRScheduleNEC.xsd',
     appParams: {
       DocumentId: 'IRS1040NRScheduleNEC-DOC-001',
       Stage: 'original',
@@ -131,6 +134,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040NR Schedule O I',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040NRScheduleOI.xsl',
+    xsdUrl: '/xsl/2025/IRS1040NRScheduleOI.xsd',
     appParams: {
       DocumentId: 'IRS1040NRScheduleOI-DOC-001',
       Stage: 'original',
@@ -145,6 +149,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040NR Schedule P',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040NRScheduleP.xsl',
+    xsdUrl: '/xsl/2025/IRS1040NRScheduleP.xsd',
     appParams: {
       DocumentId: 'IRS1040NRScheduleP-DOC-001',
       Stage: 'original',
@@ -174,6 +179,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040SS',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040SS.xsl',
+    xsdUrl: '/xsl/2025/IRS1040SS.xsd',
     appParams: {
       DocumentId: 'IRS1040SS-DOC-001',
       Stage: 'original',
@@ -202,6 +208,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule1',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040Schedule1.xsl',
+    xsdUrl: '/xsl/2025/IRS1040Schedule1.xsd',
     appParams: {
       DocumentId: 'IRS1040Schedule1-DOC-001',
       Stage: 'original',
@@ -216,6 +223,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule1 A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040Schedule1A.xsl',
+    xsdUrl: '/xsl/2025/IRS1040Schedule1A.xsd',
     appParams: {
       DocumentId: 'IRS1040Schedule1A-DOC-001',
       Stage: 'original',
@@ -230,6 +238,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule2',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040Schedule2.xsl',
+    xsdUrl: '/xsl/2025/IRS1040Schedule2.xsd',
     appParams: {
       DocumentId: 'IRS1040Schedule2-DOC-001',
       Stage: 'original',
@@ -244,6 +253,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule3',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040Schedule3.xsl',
+    xsdUrl: '/xsl/2025/IRS1040Schedule3.xsd',
     appParams: {
       DocumentId: 'IRS1040Schedule3-DOC-001',
       Stage: 'original',
@@ -258,6 +268,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule8812',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040Schedule8812.xsl',
+    xsdUrl: '/xsl/2025/IRS1040Schedule8812.xsd',
     appParams: {
       DocumentId: 'IRS1040Schedule8812-DOC-001',
       Stage: 'original',
@@ -272,6 +283,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleA-DOC-001',
       Stage: 'original',
@@ -286,6 +298,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule B',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleB.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleB.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleB-DOC-001',
       Stage: 'original',
@@ -359,6 +372,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule E I C',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleEIC.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleEIC.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleEIC-DOC-001',
       Stage: 'original',
@@ -373,6 +387,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule F',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleF.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleF.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleF-DOC-001',
       Stage: 'original',
@@ -387,6 +402,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule H',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleH.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleH.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleH-DOC-001',
       Stage: 'original',
@@ -401,6 +417,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule J',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleJ.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleJ.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleJ-DOC-001',
       Stage: 'original',
@@ -415,6 +432,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule L E P',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleLEP.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleLEP.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleLEP-DOC-001',
       Stage: 'original',
@@ -429,6 +447,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule R',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleR.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleR.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleR-DOC-001',
       Stage: 'original',
@@ -443,6 +462,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040 Schedule S E',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040ScheduleSE.xsl',
+    xsdUrl: '/xsl/2025/IRS1040ScheduleSE.xsd',
     appParams: {
       DocumentId: 'IRS1040ScheduleSE-DOC-001',
       Stage: 'original',
@@ -457,6 +477,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1040X',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1040X.xsl',
+    xsdUrl: '/xsl/2025/IRS1040X.xsd',
     appParams: {
       DocumentId: 'IRS1040X-DOC-001',
       Stage: 'original',
@@ -527,6 +548,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1041 Schedule K1',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1041ScheduleK1.xsl',
+    xsdUrl: '/xsl/2025/IRS1041ScheduleK1.xsd',
     appParams: {
       DocumentId: 'IRS1041ScheduleK1-DOC-001',
       Stage: 'original',
@@ -555,6 +577,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1042S',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1042S.xsl',
+    xsdUrl: '/xsl/2025/IRS1042S.xsd',
     appParams: {
       DocumentId: 'IRS1042S-DOC-001',
       Stage: 'original',
@@ -681,6 +704,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1065 Schedule D',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1065ScheduleD.xsl',
+    xsdUrl: '/xsl/2025/IRS1065ScheduleD.xsd',
     appParams: {
       DocumentId: 'IRS1065ScheduleD-DOC-001',
       Stage: 'original',
@@ -878,6 +902,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1099R',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1099R.xsl',
+    xsdUrl: '/xsl/2025/IRS1099R.xsd',
     appParams: {
       DocumentId: 'IRS1099R-DOC-001',
       Stage: 'original',
@@ -892,6 +917,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1116',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1116.xsl',
+    xsdUrl: '/xsl/2025/IRS1116.xsd',
     appParams: {
       DocumentId: 'IRS1116-DOC-001',
       Stage: 'original',
@@ -906,6 +932,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1116 Schedule B',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1116ScheduleB.xsl',
+    xsdUrl: '/xsl/2025/IRS1116ScheduleB.xsd',
     appParams: {
       DocumentId: 'IRS1116ScheduleB-DOC-001',
       Stage: 'original',
@@ -920,6 +947,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1116 Schedule C',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1116ScheduleC.xsl',
+    xsdUrl: '/xsl/2025/IRS1116ScheduleC.xsd',
     appParams: {
       DocumentId: 'IRS1116ScheduleC-DOC-001',
       Stage: 'original',
@@ -934,6 +962,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1118',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1118.xsl',
+    xsdUrl: '/xsl/2025/IRS1118.xsd',
     appParams: {
       DocumentId: 'IRS1118-DOC-001',
       Stage: 'original',
@@ -962,6 +991,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1118 Schedule I',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1118ScheduleI.xsl',
+    xsdUrl: '/xsl/2025/IRS1118ScheduleI.xsd',
     appParams: {
       DocumentId: 'IRS1118ScheduleI-DOC-001',
       Stage: 'original',
@@ -976,6 +1006,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1118 Schedule J',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1118ScheduleJ.xsl',
+    xsdUrl: '/xsl/2025/IRS1118ScheduleJ.xsd',
     appParams: {
       DocumentId: 'IRS1118ScheduleJ-DOC-001',
       Stage: 'original',
@@ -990,6 +1021,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1118 Schedule K',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1118ScheduleK.xsl',
+    xsdUrl: '/xsl/2025/IRS1118ScheduleK.xsd',
     appParams: {
       DocumentId: 'IRS1118ScheduleK-DOC-001',
       Stage: 'original',
@@ -1004,6 +1036,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1118 Schedule L',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1118ScheduleL.xsl',
+    xsdUrl: '/xsl/2025/IRS1118ScheduleL.xsd',
     appParams: {
       DocumentId: 'IRS1118ScheduleL-DOC-001',
       Stage: 'original',
@@ -1663,6 +1696,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 1310',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS1310.xsl',
+    xsdUrl: '/xsl/2025/IRS1310.xsd',
     appParams: {
       DocumentId: 'IRS1310-DOC-001',
       Stage: 'original',
@@ -1677,6 +1711,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 172',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS172.xsl',
+    xsdUrl: '/xsl/2025/IRS172.xsd',
     appParams: {
       DocumentId: 'IRS172-DOC-001',
       Stage: 'original',
@@ -1691,6 +1726,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 2106',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS2106.xsl',
+    xsdUrl: '/xsl/2025/IRS2106.xsd',
     appParams: {
       DocumentId: 'IRS2106-DOC-001',
       Stage: 'original',
@@ -1719,6 +1755,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 2120',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS2120.xsl',
+    xsdUrl: '/xsl/2025/IRS2120.xsd',
     appParams: {
       DocumentId: 'IRS2120-DOC-001',
       Stage: 'original',
@@ -1733,6 +1770,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 2210',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS2210.xsl',
+    xsdUrl: '/xsl/2025/IRS2210.xsd',
     appParams: {
       DocumentId: 'IRS2210-DOC-001',
       Stage: 'original',
@@ -1747,6 +1785,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 2210F',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS2210F.xsl',
+    xsdUrl: '/xsl/2025/IRS2210F.xsd',
     appParams: {
       DocumentId: 'IRS2210F-DOC-001',
       Stage: 'original',
@@ -1817,6 +1856,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 2439',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS2439.xsl',
+    xsdUrl: '/xsl/2025/IRS2439.xsd',
     appParams: {
       DocumentId: 'IRS2439-DOC-001',
       Stage: 'original',
@@ -1831,6 +1871,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 2441',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS2441.xsl',
+    xsdUrl: '/xsl/2025/IRS2441.xsd',
     appParams: {
       DocumentId: 'IRS2441-DOC-001',
       Stage: 'original',
@@ -1845,6 +1886,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 2555',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS2555.xsl',
+    xsdUrl: '/xsl/2025/IRS2555.xsd',
     appParams: {
       DocumentId: 'IRS2555-DOC-001',
       Stage: 'original',
@@ -1873,6 +1915,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 3115',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS3115.xsl',
+    xsdUrl: '/xsl/2025/IRS3115.xsd',
     appParams: {
       DocumentId: 'IRS3115-DOC-001',
       Stage: 'original',
@@ -1887,6 +1930,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 3468',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS3468.xsl',
+    xsdUrl: '/xsl/2025/IRS3468.xsd',
     appParams: {
       DocumentId: 'IRS3468-DOC-001',
       Stage: 'original',
@@ -1901,6 +1945,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 3800',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS3800.xsl',
+    xsdUrl: '/xsl/2025/IRS3800.xsd',
     appParams: {
       DocumentId: 'IRS3800-DOC-001',
       Stage: 'original',
@@ -1915,6 +1960,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 3903',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS3903.xsl',
+    xsdUrl: '/xsl/2025/IRS3903.xsd',
     appParams: {
       DocumentId: 'IRS3903-DOC-001',
       Stage: 'original',
@@ -1929,6 +1975,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4136',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4136.xsl',
+    xsdUrl: '/xsl/2025/IRS4136.xsd',
     appParams: {
       DocumentId: 'IRS4136-DOC-001',
       Stage: 'original',
@@ -1943,6 +1990,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4137',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4137.xsl',
+    xsdUrl: '/xsl/2025/IRS4137.xsd',
     appParams: {
       DocumentId: 'IRS4137-DOC-001',
       Stage: 'original',
@@ -1957,6 +2005,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4255',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4255.xsl',
+    xsdUrl: '/xsl/2025/IRS4255.xsd',
     appParams: {
       DocumentId: 'IRS4255-DOC-001',
       Stage: 'original',
@@ -1985,6 +2034,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4547',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4547.xsl',
+    xsdUrl: '/xsl/2025/IRS4547.xsd',
     appParams: {
       DocumentId: 'IRS4547-DOC-001',
       Stage: 'original',
@@ -1999,6 +2049,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4562',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4562.xsl',
+    xsdUrl: '/xsl/2025/IRS4562.xsd',
     appParams: {
       DocumentId: 'IRS4562-DOC-001',
       Stage: 'original',
@@ -2013,6 +2064,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4563',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4563.xsl',
+    xsdUrl: '/xsl/2025/IRS4563.xsd',
     appParams: {
       DocumentId: 'IRS4563-DOC-001',
       Stage: 'original',
@@ -2027,6 +2079,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 461',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS461.xsl',
+    xsdUrl: '/xsl/2025/IRS461.xsd',
     appParams: {
       DocumentId: 'IRS461-DOC-001',
       Stage: 'original',
@@ -2069,6 +2122,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4684',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4684.xsl',
+    xsdUrl: '/xsl/2025/IRS4684.xsd',
     appParams: {
       DocumentId: 'IRS4684-DOC-001',
       Stage: 'original',
@@ -2097,6 +2151,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4797',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4797.xsl',
+    xsdUrl: '/xsl/2025/IRS4797.xsd',
     appParams: {
       DocumentId: 'IRS4797-DOC-001',
       Stage: 'original',
@@ -2111,6 +2166,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4835',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4835.xsl',
+    xsdUrl: '/xsl/2025/IRS4835.xsd',
     appParams: {
       DocumentId: 'IRS4835-DOC-001',
       Stage: 'original',
@@ -2139,6 +2195,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4952',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4952.xsl',
+    xsdUrl: '/xsl/2025/IRS4952.xsd',
     appParams: {
       DocumentId: 'IRS4952-DOC-001',
       Stage: 'original',
@@ -2153,6 +2210,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4970',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4970.xsl',
+    xsdUrl: '/xsl/2025/IRS4970.xsd',
     appParams: {
       DocumentId: 'IRS4970-DOC-001',
       Stage: 'original',
@@ -2167,6 +2225,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 4972',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS4972.xsl',
+    xsdUrl: '/xsl/2025/IRS4972.xsd',
     appParams: {
       DocumentId: 'IRS4972-DOC-001',
       Stage: 'original',
@@ -2181,6 +2240,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 499W2PR',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS499W2PR.xsl',
+    xsdUrl: '/xsl/2025/IRS499W2PR.xsd',
     appParams: {
       DocumentId: 'IRS499W2PR-DOC-001',
       Stage: 'original',
@@ -2195,6 +2255,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5074',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5074.xsl',
+    xsdUrl: '/xsl/2025/IRS5074.xsd',
     appParams: {
       DocumentId: 'IRS5074-DOC-001',
       Stage: 'original',
@@ -2223,6 +2284,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5329',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5329.xsl',
+    xsdUrl: '/xsl/2025/IRS5329.xsd',
     appParams: {
       DocumentId: 'IRS5329-DOC-001',
       Stage: 'original',
@@ -2279,6 +2341,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471.xsl',
+    xsdUrl: '/xsl/2025/IRS5471.xsd',
     appParams: {
       DocumentId: 'IRS5471-DOC-001',
       Stage: 'original',
@@ -2293,6 +2356,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule E',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleE.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleE.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleE-DOC-001',
       Stage: 'original',
@@ -2307,6 +2371,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule G1',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleG1.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleG1.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleG1-DOC-001',
       Stage: 'original',
@@ -2321,6 +2386,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule H',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleH.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleH.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleH-DOC-001',
       Stage: 'original',
@@ -2335,6 +2401,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule I1',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleI1.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleI1.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleI1-DOC-001',
       Stage: 'original',
@@ -2349,6 +2416,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule J',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleJ.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleJ.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleJ-DOC-001',
       Stage: 'original',
@@ -2363,6 +2431,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule M',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleM.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleM.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleM-DOC-001',
       Stage: 'original',
@@ -2377,6 +2446,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule O',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleO.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleO.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleO-DOC-001',
       Stage: 'original',
@@ -2391,6 +2461,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule P',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleP.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleP.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleP-DOC-001',
       Stage: 'original',
@@ -2405,6 +2476,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule Q',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleQ.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleQ.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleQ-DOC-001',
       Stage: 'original',
@@ -2419,6 +2491,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5471 Schedule R',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5471ScheduleR.xsl',
+    xsdUrl: '/xsl/2025/IRS5471ScheduleR.xsd',
     appParams: {
       DocumentId: 'IRS5471ScheduleR-DOC-001',
       Stage: 'original',
@@ -2461,6 +2534,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5695',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5695.xsl',
+    xsdUrl: '/xsl/2025/IRS5695.xsd',
     appParams: {
       DocumentId: 'IRS5695-DOC-001',
       Stage: 'original',
@@ -2475,6 +2549,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5713',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5713.xsl',
+    xsdUrl: '/xsl/2025/IRS5713.xsd',
     appParams: {
       DocumentId: 'IRS5713-DOC-001',
       Stage: 'original',
@@ -2489,6 +2564,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5713 Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5713ScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS5713ScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS5713ScheduleA-DOC-001',
       Stage: 'original',
@@ -2503,6 +2579,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5713 Schedule B',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5713ScheduleB.xsl',
+    xsdUrl: '/xsl/2025/IRS5713ScheduleB.xsd',
     appParams: {
       DocumentId: 'IRS5713ScheduleB-DOC-001',
       Stage: 'original',
@@ -2517,6 +2594,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5713 Schedule C',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5713ScheduleC.xsl',
+    xsdUrl: '/xsl/2025/IRS5713ScheduleC.xsd',
     appParams: {
       DocumentId: 'IRS5713ScheduleC-DOC-001',
       Stage: 'original',
@@ -2545,6 +2623,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 5884',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS5884.xsl',
+    xsdUrl: '/xsl/2025/IRS5884.xsd',
     appParams: {
       DocumentId: 'IRS5884-DOC-001',
       Stage: 'original',
@@ -2587,6 +2666,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 6198',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS6198.xsl',
+    xsdUrl: '/xsl/2025/IRS6198.xsd',
     appParams: {
       DocumentId: 'IRS6198-DOC-001',
       Stage: 'original',
@@ -2601,6 +2681,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 6251',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS6251.xsl',
+    xsdUrl: '/xsl/2025/IRS6251.xsd',
     appParams: {
       DocumentId: 'IRS6251-DOC-001',
       Stage: 'original',
@@ -2615,6 +2696,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 6252',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS6252.xsl',
+    xsdUrl: '/xsl/2025/IRS6252.xsd',
     appParams: {
       DocumentId: 'IRS6252-DOC-001',
       Stage: 'original',
@@ -2629,6 +2711,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 6478',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS6478.xsl',
+    xsdUrl: '/xsl/2025/IRS6478.xsd',
     appParams: {
       DocumentId: 'IRS6478-DOC-001',
       Stage: 'original',
@@ -2657,6 +2740,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 6765',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS6765.xsl',
+    xsdUrl: '/xsl/2025/IRS6765.xsd',
     appParams: {
       DocumentId: 'IRS6765-DOC-001',
       Stage: 'original',
@@ -2671,6 +2755,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 6781',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS6781.xsl',
+    xsdUrl: '/xsl/2025/IRS6781.xsd',
     appParams: {
       DocumentId: 'IRS6781-DOC-001',
       Stage: 'original',
@@ -2755,6 +2840,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7203',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7203.xsl',
+    xsdUrl: '/xsl/2025/IRS7203.xsd',
     appParams: {
       DocumentId: 'IRS7203-DOC-001',
       Stage: 'original',
@@ -2769,6 +2855,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7204',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7204.xsl',
+    xsdUrl: '/xsl/2025/IRS7204.xsd',
     appParams: {
       DocumentId: 'IRS7204-DOC-001',
       Stage: 'original',
@@ -2783,6 +2870,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7205',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7205.xsl',
+    xsdUrl: '/xsl/2025/IRS7205.xsd',
     appParams: {
       DocumentId: 'IRS7205-DOC-001',
       Stage: 'original',
@@ -2797,6 +2885,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7206',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7206.xsl',
+    xsdUrl: '/xsl/2025/IRS7206.xsd',
     appParams: {
       DocumentId: 'IRS7206-DOC-001',
       Stage: 'original',
@@ -2811,6 +2900,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7207',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7207.xsl',
+    xsdUrl: '/xsl/2025/IRS7207.xsd',
     appParams: {
       DocumentId: 'IRS7207-DOC-001',
       Stage: 'original',
@@ -2853,6 +2943,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7210',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7210.xsl',
+    xsdUrl: '/xsl/2025/IRS7210.xsd',
     appParams: {
       DocumentId: 'IRS7210-DOC-001',
       Stage: 'original',
@@ -2867,6 +2958,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7211',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7211.xsl',
+    xsdUrl: '/xsl/2025/IRS7211.xsd',
     appParams: {
       DocumentId: 'IRS7211-DOC-001',
       Stage: 'original',
@@ -2881,6 +2973,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7213',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7213.xsl',
+    xsdUrl: '/xsl/2025/IRS7213.xsd',
     appParams: {
       DocumentId: 'IRS7213-DOC-001',
       Stage: 'original',
@@ -2895,6 +2988,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7217',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7217.xsl',
+    xsdUrl: '/xsl/2025/IRS7217.xsd',
     appParams: {
       DocumentId: 'IRS7217-DOC-001',
       Stage: 'original',
@@ -2909,6 +3003,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 7218',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS7218.xsl',
+    xsdUrl: '/xsl/2025/IRS7218.xsd',
     appParams: {
       DocumentId: 'IRS7218-DOC-001',
       Stage: 'original',
@@ -2965,6 +3060,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8082',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8082.xsl',
+    xsdUrl: '/xsl/2025/IRS8082.xsd',
     appParams: {
       DocumentId: 'IRS8082-DOC-001',
       Stage: 'original',
@@ -2979,6 +3075,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8275',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8275.xsl',
+    xsdUrl: '/xsl/2025/IRS8275.xsd',
     appParams: {
       DocumentId: 'IRS8275-DOC-001',
       Stage: 'original',
@@ -2993,6 +3090,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8275R',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8275R.xsl',
+    xsdUrl: '/xsl/2025/IRS8275R.xsd',
     appParams: {
       DocumentId: 'IRS8275R-DOC-001',
       Stage: 'original',
@@ -3007,6 +3105,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8283',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8283.xsl',
+    xsdUrl: '/xsl/2025/IRS8283.xsd',
     appParams: {
       DocumentId: 'IRS8283-DOC-001',
       Stage: 'original',
@@ -3021,6 +3120,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8288A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8288A.xsl',
+    xsdUrl: '/xsl/2025/IRS8288A.xsd',
     appParams: {
       DocumentId: 'IRS8288A-DOC-001',
       Stage: 'original',
@@ -3063,6 +3163,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8332',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8332.xsl',
+    xsdUrl: '/xsl/2025/IRS8332.xsd',
     appParams: {
       DocumentId: 'IRS8332-DOC-001',
       Stage: 'original',
@@ -3077,6 +3178,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8379',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8379.xsl',
+    xsdUrl: '/xsl/2025/IRS8379.xsd',
     appParams: {
       DocumentId: 'IRS8379-DOC-001',
       Stage: 'original',
@@ -3091,6 +3193,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8396',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8396.xsl',
+    xsdUrl: '/xsl/2025/IRS8396.xsd',
     appParams: {
       DocumentId: 'IRS8396-DOC-001',
       Stage: 'original',
@@ -3119,6 +3222,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8582',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8582.xsl',
+    xsdUrl: '/xsl/2025/IRS8582.xsd',
     appParams: {
       DocumentId: 'IRS8582-DOC-001',
       Stage: 'original',
@@ -3133,6 +3237,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8582CR',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8582CR.xsl',
+    xsdUrl: '/xsl/2025/IRS8582CR.xsd',
     appParams: {
       DocumentId: 'IRS8582CR-DOC-001',
       Stage: 'original',
@@ -3147,6 +3252,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8586',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8586.xsl',
+    xsdUrl: '/xsl/2025/IRS8586.xsd',
     appParams: {
       DocumentId: 'IRS8586-DOC-001',
       Stage: 'original',
@@ -3161,6 +3267,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8594',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8594.xsl',
+    xsdUrl: '/xsl/2025/IRS8594.xsd',
     appParams: {
       DocumentId: 'IRS8594-DOC-001',
       Stage: 'original',
@@ -3175,6 +3282,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8606',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8606.xsl',
+    xsdUrl: '/xsl/2025/IRS8606.xsd',
     appParams: {
       DocumentId: 'IRS8606-DOC-001',
       Stage: 'original',
@@ -3189,6 +3297,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8609A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8609A.xsl',
+    xsdUrl: '/xsl/2025/IRS8609A.xsd',
     appParams: {
       DocumentId: 'IRS8609A-DOC-001',
       Stage: 'original',
@@ -3203,6 +3312,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8611',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8611.xsl',
+    xsdUrl: '/xsl/2025/IRS8611.xsd',
     appParams: {
       DocumentId: 'IRS8611-DOC-001',
       Stage: 'original',
@@ -3217,6 +3327,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8615',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8615.xsl',
+    xsdUrl: '/xsl/2025/IRS8615.xsd',
     appParams: {
       DocumentId: 'IRS8615-DOC-001',
       Stage: 'original',
@@ -3231,6 +3342,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8621',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8621.xsl',
+    xsdUrl: '/xsl/2025/IRS8621.xsd',
     appParams: {
       DocumentId: 'IRS8621-DOC-001',
       Stage: 'original',
@@ -3245,6 +3357,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8689',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8689.xsl',
+    xsdUrl: '/xsl/2025/IRS8689.xsd',
     appParams: {
       DocumentId: 'IRS8689-DOC-001',
       Stage: 'original',
@@ -3259,6 +3372,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8697',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8697.xsl',
+    xsdUrl: '/xsl/2025/IRS8697.xsd',
     appParams: {
       DocumentId: 'IRS8697-DOC-001',
       Stage: 'original',
@@ -3287,6 +3401,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8801',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8801.xsl',
+    xsdUrl: '/xsl/2025/IRS8801.xsd',
     appParams: {
       DocumentId: 'IRS8801-DOC-001',
       Stage: 'original',
@@ -3301,6 +3416,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8805',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8805.xsl',
+    xsdUrl: '/xsl/2025/IRS8805.xsd',
     appParams: {
       DocumentId: 'IRS8805-DOC-001',
       Stage: 'original',
@@ -3329,6 +3445,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8814',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8814.xsl',
+    xsdUrl: '/xsl/2025/IRS8814.xsd',
     appParams: {
       DocumentId: 'IRS8814-DOC-001',
       Stage: 'original',
@@ -3343,6 +3460,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8815',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8815.xsl',
+    xsdUrl: '/xsl/2025/IRS8815.xsd',
     appParams: {
       DocumentId: 'IRS8815-DOC-001',
       Stage: 'original',
@@ -3371,6 +3489,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8820',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8820.xsl',
+    xsdUrl: '/xsl/2025/IRS8820.xsd',
     appParams: {
       DocumentId: 'IRS8820-DOC-001',
       Stage: 'original',
@@ -3385,6 +3504,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8824',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8824.xsl',
+    xsdUrl: '/xsl/2025/IRS8824.xsd',
     appParams: {
       DocumentId: 'IRS8824-DOC-001',
       Stage: 'original',
@@ -3399,6 +3519,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8825',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8825.xsl',
+    xsdUrl: '/xsl/2025/IRS8825.xsd',
     appParams: {
       DocumentId: 'IRS8825-DOC-001',
       Stage: 'original',
@@ -3413,6 +3534,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8826',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8826.xsl',
+    xsdUrl: '/xsl/2025/IRS8826.xsd',
     appParams: {
       DocumentId: 'IRS8826-DOC-001',
       Stage: 'original',
@@ -3441,6 +3563,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8828',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8828.xsl',
+    xsdUrl: '/xsl/2025/IRS8828.xsd',
     appParams: {
       DocumentId: 'IRS8828-DOC-001',
       Stage: 'original',
@@ -3455,6 +3578,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8829',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8829.xsl',
+    xsdUrl: '/xsl/2025/IRS8829.xsd',
     appParams: {
       DocumentId: 'IRS8829-DOC-001',
       Stage: 'original',
@@ -3483,6 +3607,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8833',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8833.xsl',
+    xsdUrl: '/xsl/2025/IRS8833.xsd',
     appParams: {
       DocumentId: 'IRS8833-DOC-001',
       Stage: 'original',
@@ -3497,6 +3622,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8834',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8834.xsl',
+    xsdUrl: '/xsl/2025/IRS8834.xsd',
     appParams: {
       DocumentId: 'IRS8834-DOC-001',
       Stage: 'original',
@@ -3511,6 +3637,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8835',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8835.xsl',
+    xsdUrl: '/xsl/2025/IRS8835.xsd',
     appParams: {
       DocumentId: 'IRS8835-DOC-001',
       Stage: 'original',
@@ -3525,6 +3652,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8838',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8838.xsl',
+    xsdUrl: '/xsl/2025/IRS8838.xsd',
     appParams: {
       DocumentId: 'IRS8838-DOC-001',
       Stage: 'original',
@@ -3539,6 +3667,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8838P',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8838P.xsl',
+    xsdUrl: '/xsl/2025/IRS8838P.xsd',
     appParams: {
       DocumentId: 'IRS8838P-DOC-001',
       Stage: 'original',
@@ -3553,6 +3682,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8839',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8839.xsl',
+    xsdUrl: '/xsl/2025/IRS8839.xsd',
     appParams: {
       DocumentId: 'IRS8839-DOC-001',
       Stage: 'original',
@@ -3567,6 +3697,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8840',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8840.xsl',
+    xsdUrl: '/xsl/2025/IRS8840.xsd',
     appParams: {
       DocumentId: 'IRS8840-DOC-001',
       Stage: 'original',
@@ -3581,6 +3712,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8843',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8843.xsl',
+    xsdUrl: '/xsl/2025/IRS8843.xsd',
     appParams: {
       DocumentId: 'IRS8843-DOC-001',
       Stage: 'original',
@@ -3595,6 +3727,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8844',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8844.xsl',
+    xsdUrl: '/xsl/2025/IRS8844.xsd',
     appParams: {
       DocumentId: 'IRS8844-DOC-001',
       Stage: 'original',
@@ -3609,6 +3742,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8845',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8845.xsl',
+    xsdUrl: '/xsl/2025/IRS8845.xsd',
     appParams: {
       DocumentId: 'IRS8845-DOC-001',
       Stage: 'original',
@@ -3623,6 +3757,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8846',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8846.xsl',
+    xsdUrl: '/xsl/2025/IRS8846.xsd',
     appParams: {
       DocumentId: 'IRS8846-DOC-001',
       Stage: 'original',
@@ -3735,6 +3870,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8853',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8853.xsl',
+    xsdUrl: '/xsl/2025/IRS8853.xsd',
     appParams: {
       DocumentId: 'IRS8853-DOC-001',
       Stage: 'original',
@@ -3749,6 +3885,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8854',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8854.xsl',
+    xsdUrl: '/xsl/2025/IRS8854.xsd',
     appParams: {
       DocumentId: 'IRS8854-DOC-001',
       Stage: 'original',
@@ -3763,6 +3900,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8858',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8858.xsl',
+    xsdUrl: '/xsl/2025/IRS8858.xsd',
     appParams: {
       DocumentId: 'IRS8858-DOC-001',
       Stage: 'original',
@@ -3777,6 +3915,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8858 Schedule M',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8858ScheduleM.xsl',
+    xsdUrl: '/xsl/2025/IRS8858ScheduleM.xsd',
     appParams: {
       DocumentId: 'IRS8858ScheduleM-DOC-001',
       Stage: 'original',
@@ -3791,6 +3930,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8859',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8859.xsl',
+    xsdUrl: '/xsl/2025/IRS8859.xsd',
     appParams: {
       DocumentId: 'IRS8859-DOC-001',
       Stage: 'original',
@@ -3805,6 +3945,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8862',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8862.xsl',
+    xsdUrl: '/xsl/2025/IRS8862.xsd',
     appParams: {
       DocumentId: 'IRS8862-DOC-001',
       Stage: 'original',
@@ -3819,6 +3960,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8863',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8863.xsl',
+    xsdUrl: '/xsl/2025/IRS8863.xsd',
     appParams: {
       DocumentId: 'IRS8863-DOC-001',
       Stage: 'original',
@@ -3833,6 +3975,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8864',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8864.xsl',
+    xsdUrl: '/xsl/2025/IRS8864.xsd',
     appParams: {
       DocumentId: 'IRS8864-DOC-001',
       Stage: 'original',
@@ -3847,6 +3990,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8865',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8865.xsl',
+    xsdUrl: '/xsl/2025/IRS8865.xsd',
     appParams: {
       DocumentId: 'IRS8865-DOC-001',
       Stage: 'original',
@@ -3861,6 +4005,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8865 Schedule G',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8865ScheduleG.xsl',
+    xsdUrl: '/xsl/2025/IRS8865ScheduleG.xsd',
     appParams: {
       DocumentId: 'IRS8865ScheduleG-DOC-001',
       Stage: 'original',
@@ -3875,6 +4020,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8865 Schedule H',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8865ScheduleH.xsl',
+    xsdUrl: '/xsl/2025/IRS8865ScheduleH.xsd',
     appParams: {
       DocumentId: 'IRS8865ScheduleH-DOC-001',
       Stage: 'original',
@@ -3889,6 +4035,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8865 Schedule K1',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8865ScheduleK1.xsl',
+    xsdUrl: '/xsl/2025/IRS8865ScheduleK1.xsd',
     appParams: {
       DocumentId: 'IRS8865ScheduleK1-DOC-001',
       Stage: 'original',
@@ -3903,6 +4050,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8865 Schedule K2',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8865ScheduleK2.xsl',
+    xsdUrl: '/xsl/2025/IRS8865ScheduleK2.xsd',
     appParams: {
       DocumentId: 'IRS8865ScheduleK2-DOC-001',
       Stage: 'original',
@@ -3917,6 +4065,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8865 Schedule K3',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8865ScheduleK3.xsl',
+    xsdUrl: '/xsl/2025/IRS8865ScheduleK3.xsd',
     appParams: {
       DocumentId: 'IRS8865ScheduleK3-DOC-001',
       Stage: 'original',
@@ -3931,6 +4080,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8865 Schedule O',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8865ScheduleO.xsl',
+    xsdUrl: '/xsl/2025/IRS8865ScheduleO.xsd',
     appParams: {
       DocumentId: 'IRS8865ScheduleO-DOC-001',
       Stage: 'original',
@@ -3945,6 +4095,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8865 Schedule P',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8865ScheduleP.xsl',
+    xsdUrl: '/xsl/2025/IRS8865ScheduleP.xsd',
     appParams: {
       DocumentId: 'IRS8865ScheduleP-DOC-001',
       Stage: 'original',
@@ -3959,6 +4110,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8866',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8866.xsl',
+    xsdUrl: '/xsl/2025/IRS8866.xsd',
     appParams: {
       DocumentId: 'IRS8866-DOC-001',
       Stage: 'original',
@@ -3973,6 +4125,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8867',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8867.xsl',
+    xsdUrl: '/xsl/2025/IRS8867.xsd',
     appParams: {
       DocumentId: 'IRS8867-DOC-001',
       Stage: 'original',
@@ -4001,6 +4154,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8873',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8873.xsl',
+    xsdUrl: '/xsl/2025/IRS8873.xsd',
     appParams: {
       DocumentId: 'IRS8873-DOC-001',
       Stage: 'original',
@@ -4015,6 +4169,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8874',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8874.xsl',
+    xsdUrl: '/xsl/2025/IRS8874.xsd',
     appParams: {
       DocumentId: 'IRS8874-DOC-001',
       Stage: 'original',
@@ -4029,6 +4184,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8880',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8880.xsl',
+    xsdUrl: '/xsl/2025/IRS8880.xsd',
     appParams: {
       DocumentId: 'IRS8880-DOC-001',
       Stage: 'original',
@@ -4043,6 +4199,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8881',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8881.xsl',
+    xsdUrl: '/xsl/2025/IRS8881.xsd',
     appParams: {
       DocumentId: 'IRS8881-DOC-001',
       Stage: 'original',
@@ -4057,6 +4214,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8882',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8882.xsl',
+    xsdUrl: '/xsl/2025/IRS8882.xsd',
     appParams: {
       DocumentId: 'IRS8882-DOC-001',
       Stage: 'original',
@@ -4071,6 +4229,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8883',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8883.xsl',
+    xsdUrl: '/xsl/2025/IRS8883.xsd',
     appParams: {
       DocumentId: 'IRS8883-DOC-001',
       Stage: 'original',
@@ -4099,6 +4258,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8886',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8886.xsl',
+    xsdUrl: '/xsl/2025/IRS8886.xsd',
     appParams: {
       DocumentId: 'IRS8886-DOC-001',
       Stage: 'original',
@@ -4113,6 +4273,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8888',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8888.xsl',
+    xsdUrl: '/xsl/2025/IRS8888.xsd',
     appParams: {
       DocumentId: 'IRS8888-DOC-001',
       Stage: 'original',
@@ -4141,6 +4302,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8889',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8889.xsl',
+    xsdUrl: '/xsl/2025/IRS8889.xsd',
     appParams: {
       DocumentId: 'IRS8889-DOC-001',
       Stage: 'original',
@@ -4183,6 +4345,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8896',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8896.xsl',
+    xsdUrl: '/xsl/2025/IRS8896.xsd',
     appParams: {
       DocumentId: 'IRS8896-DOC-001',
       Stage: 'original',
@@ -4197,6 +4360,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8900',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8900.xsl',
+    xsdUrl: '/xsl/2025/IRS8900.xsd',
     appParams: {
       DocumentId: 'IRS8900-DOC-001',
       Stage: 'original',
@@ -4239,6 +4403,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8906',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8906.xsl',
+    xsdUrl: '/xsl/2025/IRS8906.xsd',
     appParams: {
       DocumentId: 'IRS8906-DOC-001',
       Stage: 'original',
@@ -4267,6 +4432,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8908',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8908.xsl',
+    xsdUrl: '/xsl/2025/IRS8908.xsd',
     appParams: {
       DocumentId: 'IRS8908-DOC-001',
       Stage: 'original',
@@ -4309,6 +4475,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8911',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8911.xsl',
+    xsdUrl: '/xsl/2025/IRS8911.xsd',
     appParams: {
       DocumentId: 'IRS8911-DOC-001',
       Stage: 'original',
@@ -4323,6 +4490,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8911 Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8911ScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS8911ScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS8911ScheduleA-DOC-001',
       Stage: 'original',
@@ -4337,6 +4505,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8912',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8912.xsl',
+    xsdUrl: '/xsl/2025/IRS8912.xsd',
     appParams: {
       DocumentId: 'IRS8912-DOC-001',
       Stage: 'original',
@@ -4351,6 +4520,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8915F',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8915F.xsl',
+    xsdUrl: '/xsl/2025/IRS8915F.xsd',
     appParams: {
       DocumentId: 'IRS8915F-DOC-001',
       Stage: 'original',
@@ -4393,6 +4563,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8917',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8917.xsl',
+    xsdUrl: '/xsl/2025/IRS8917.xsd',
     appParams: {
       DocumentId: 'IRS8917-DOC-001',
       Stage: 'original',
@@ -4407,6 +4578,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8919',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8919.xsl',
+    xsdUrl: '/xsl/2025/IRS8919.xsd',
     appParams: {
       DocumentId: 'IRS8919-DOC-001',
       Stage: 'original',
@@ -4435,6 +4607,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8925',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8925.xsl',
+    xsdUrl: '/xsl/2025/IRS8925.xsd',
     appParams: {
       DocumentId: 'IRS8925-DOC-001',
       Stage: 'original',
@@ -4477,6 +4650,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8932',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8932.xsl',
+    xsdUrl: '/xsl/2025/IRS8932.xsd',
     appParams: {
       DocumentId: 'IRS8932-DOC-001',
       Stage: 'original',
@@ -4491,6 +4665,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8933',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8933.xsl',
+    xsdUrl: '/xsl/2025/IRS8933.xsd',
     appParams: {
       DocumentId: 'IRS8933-DOC-001',
       Stage: 'original',
@@ -4505,6 +4680,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8933 Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8933ScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS8933ScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS8933ScheduleA-DOC-001',
       Stage: 'original',
@@ -4519,6 +4695,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8933 Schedule B',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8933ScheduleB.xsl',
+    xsdUrl: '/xsl/2025/IRS8933ScheduleB.xsd',
     appParams: {
       DocumentId: 'IRS8933ScheduleB-DOC-001',
       Stage: 'original',
@@ -4533,6 +4710,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8933 Schedule C',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8933ScheduleC.xsl',
+    xsdUrl: '/xsl/2025/IRS8933ScheduleC.xsd',
     appParams: {
       DocumentId: 'IRS8933ScheduleC-DOC-001',
       Stage: 'original',
@@ -4547,6 +4725,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8933 Schedule D',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8933ScheduleD.xsl',
+    xsdUrl: '/xsl/2025/IRS8933ScheduleD.xsd',
     appParams: {
       DocumentId: 'IRS8933ScheduleD-DOC-001',
       Stage: 'original',
@@ -4561,6 +4740,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8933 Schedule E',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8933ScheduleE.xsl',
+    xsdUrl: '/xsl/2025/IRS8933ScheduleE.xsd',
     appParams: {
       DocumentId: 'IRS8933ScheduleE-DOC-001',
       Stage: 'original',
@@ -4575,6 +4755,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8933 Schedule F',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8933ScheduleF.xsl',
+    xsdUrl: '/xsl/2025/IRS8933ScheduleF.xsd',
     appParams: {
       DocumentId: 'IRS8933ScheduleF-DOC-001',
       Stage: 'original',
@@ -4589,6 +4770,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8936',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8936.xsl',
+    xsdUrl: '/xsl/2025/IRS8936.xsd',
     appParams: {
       DocumentId: 'IRS8936-DOC-001',
       Stage: 'original',
@@ -4603,6 +4785,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8936 Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8936ScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS8936ScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS8936ScheduleA-DOC-001',
       Stage: 'original',
@@ -4617,6 +4800,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8938',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8938.xsl',
+    xsdUrl: '/xsl/2025/IRS8938.xsd',
     appParams: {
       DocumentId: 'IRS8938-DOC-001',
       Stage: 'original',
@@ -4631,6 +4815,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8941',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8941.xsl',
+    xsdUrl: '/xsl/2025/IRS8941.xsd',
     appParams: {
       DocumentId: 'IRS8941-DOC-001',
       Stage: 'original',
@@ -4645,6 +4830,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8949',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8949.xsl',
+    xsdUrl: '/xsl/2025/IRS8949.xsd',
     appParams: {
       DocumentId: 'IRS8949-DOC-001',
       Stage: 'original',
@@ -4659,6 +4845,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8958',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8958.xsl',
+    xsdUrl: '/xsl/2025/IRS8958.xsd',
     appParams: {
       DocumentId: 'IRS8958-DOC-001',
       Stage: 'original',
@@ -4673,6 +4860,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8959',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8959.xsl',
+    xsdUrl: '/xsl/2025/IRS8959.xsd',
     appParams: {
       DocumentId: 'IRS8959-DOC-001',
       Stage: 'original',
@@ -4687,6 +4875,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8960',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8960.xsl',
+    xsdUrl: '/xsl/2025/IRS8960.xsd',
     appParams: {
       DocumentId: 'IRS8960-DOC-001',
       Stage: 'original',
@@ -4701,6 +4890,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8962',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8962.xsl',
+    xsdUrl: '/xsl/2025/IRS8962.xsd',
     appParams: {
       DocumentId: 'IRS8962-DOC-001',
       Stage: 'original',
@@ -4757,6 +4947,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8978',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8978.xsl',
+    xsdUrl: '/xsl/2025/IRS8978.xsd',
     appParams: {
       DocumentId: 'IRS8978-DOC-001',
       Stage: 'original',
@@ -4771,6 +4962,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8978 Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8978ScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS8978ScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS8978ScheduleA-DOC-001',
       Stage: 'original',
@@ -4813,6 +5005,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8990',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8990.xsl',
+    xsdUrl: '/xsl/2025/IRS8990.xsd',
     appParams: {
       DocumentId: 'IRS8990-DOC-001',
       Stage: 'original',
@@ -4841,6 +5034,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8992',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8992.xsl',
+    xsdUrl: '/xsl/2025/IRS8992.xsd',
     appParams: {
       DocumentId: 'IRS8992-DOC-001',
       Stage: 'original',
@@ -4855,6 +5049,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8992 Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8992ScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS8992ScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS8992ScheduleA-DOC-001',
       Stage: 'original',
@@ -4883,6 +5078,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8993',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8993.xsl',
+    xsdUrl: '/xsl/2025/IRS8993.xsd',
     appParams: {
       DocumentId: 'IRS8993-DOC-001',
       Stage: 'original',
@@ -4897,6 +5093,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8994',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8994.xsl',
+    xsdUrl: '/xsl/2025/IRS8994.xsd',
     appParams: {
       DocumentId: 'IRS8994-DOC-001',
       Stage: 'original',
@@ -4911,6 +5108,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8995',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8995.xsl',
+    xsdUrl: '/xsl/2025/IRS8995.xsd',
     appParams: {
       DocumentId: 'IRS8995-DOC-001',
       Stage: 'original',
@@ -4925,6 +5123,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8995A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8995A.xsl',
+    xsdUrl: '/xsl/2025/IRS8995A.xsd',
     appParams: {
       DocumentId: 'IRS8995A-DOC-001',
       Stage: 'original',
@@ -4939,6 +5138,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8995A Schedule A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8995AScheduleA.xsl',
+    xsdUrl: '/xsl/2025/IRS8995AScheduleA.xsd',
     appParams: {
       DocumentId: 'IRS8995AScheduleA-DOC-001',
       Stage: 'original',
@@ -4953,6 +5153,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8995A Schedule B',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8995AScheduleB.xsl',
+    xsdUrl: '/xsl/2025/IRS8995AScheduleB.xsd',
     appParams: {
       DocumentId: 'IRS8995AScheduleB-DOC-001',
       Stage: 'original',
@@ -4967,6 +5168,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8995A Schedule C',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8995AScheduleC.xsl',
+    xsdUrl: '/xsl/2025/IRS8995AScheduleC.xsd',
     appParams: {
       DocumentId: 'IRS8995AScheduleC-DOC-001',
       Stage: 'original',
@@ -4981,6 +5183,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8995A Schedule D',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8995AScheduleD.xsl',
+    xsdUrl: '/xsl/2025/IRS8995AScheduleD.xsd',
     appParams: {
       DocumentId: 'IRS8995AScheduleD-DOC-001',
       Stage: 'original',
@@ -5009,6 +5212,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 8997',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS8997.xsl',
+    xsdUrl: '/xsl/2025/IRS8997.xsd',
     appParams: {
       DocumentId: 'IRS8997-DOC-001',
       Stage: 'original',
@@ -5023,6 +5227,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 9000',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS9000.xsl',
+    xsdUrl: '/xsl/2025/IRS9000.xsd',
     appParams: {
       DocumentId: 'IRS9000-DOC-001',
       Stage: 'original',
@@ -5037,6 +5242,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 926',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS926.xsl',
+    xsdUrl: '/xsl/2025/IRS926.xsd',
     appParams: {
       DocumentId: 'IRS926-DOC-001',
       Stage: 'original',
@@ -5317,6 +5523,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 9465',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS9465.xsl',
+    xsdUrl: '/xsl/2025/IRS9465.xsd',
     appParams: {
       DocumentId: 'IRS9465-DOC-001',
       Stage: 'original',
@@ -5359,6 +5566,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 965A',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS965A.xsl',
+    xsdUrl: '/xsl/2025/IRS965A.xsd',
     appParams: {
       DocumentId: 'IRS965A-DOC-001',
       Stage: 'original',
@@ -5387,6 +5595,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 965Payment',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS965Payment.xsl',
+    xsdUrl: '/xsl/2025/IRS965Payment.xsd',
     appParams: {
       DocumentId: 'IRS965Payment-DOC-001',
       Stage: 'original',
@@ -5429,6 +5638,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 970',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS970.xsl',
+    xsdUrl: '/xsl/2025/IRS970.xsd',
     appParams: {
       DocumentId: 'IRS970-DOC-001',
       Stage: 'original',
@@ -5471,6 +5681,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form 982',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRS982.xsl',
+    xsdUrl: '/xsl/2025/IRS982.xsd',
     appParams: {
       DocumentId: 'IRS982-DOC-001',
       Stage: 'original',
@@ -5793,6 +6004,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form ESPayment',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSESPayment.xsl',
+    xsdUrl: '/xsl/2025/IRSESPayment.xsd',
     appParams: {
       DocumentId: 'IRSESPayment-DOC-001',
       Stage: 'original',
@@ -5807,6 +6019,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form FormT',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSFormT.xsl',
+    xsdUrl: '/xsl/2025/IRSFormT.xsd',
     appParams: {
       DocumentId: 'IRSFormT-DOC-001',
       Stage: 'original',
@@ -5821,6 +6034,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form Payment',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSPayment.xsl',
+    xsdUrl: '/xsl/2025/IRSPayment.xsd',
     appParams: {
       DocumentId: 'IRSPayment-DOC-001',
       Stage: 'original',
@@ -5849,6 +6063,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form RRB1042S',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSRRB1042S.xsl',
+    xsdUrl: '/xsl/2025/IRSRRB1042S.xsd',
     appParams: {
       DocumentId: 'IRSRRB1042S-DOC-001',
       Stage: 'original',
@@ -5863,6 +6078,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form SSA1042S',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSSSA1042S.xsl',
+    xsdUrl: '/xsl/2025/IRSSSA1042S.xsd',
     appParams: {
       DocumentId: 'IRSSSA1042S-DOC-001',
       Stage: 'original',
@@ -5892,6 +6108,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form W2AS',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSW2AS.xsl',
+    xsdUrl: '/xsl/2025/IRSW2AS.xsd',
     appParams: {
       DocumentId: 'IRSW2AS-DOC-001',
       Stage: 'original',
@@ -5906,6 +6123,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form W2G',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSW2G.xsl',
+    xsdUrl: '/xsl/2025/IRSW2G.xsd',
     appParams: {
       DocumentId: 'IRSW2G-DOC-001',
       Stage: 'original',
@@ -5920,6 +6138,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form W2GU',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSW2GU.xsl',
+    xsdUrl: '/xsl/2025/IRSW2GU.xsd',
     appParams: {
       DocumentId: 'IRSW2GU-DOC-001',
       Stage: 'original',
@@ -5934,6 +6153,7 @@ export const FORM_REGISTRY: FormEntry[] = [
     label: 'Form W2VI',
     taxYear: '2025',
     xslUrl: '/xsl/2025/IRSW2VI.xsl',
+    xsdUrl: '/xsl/2025/IRSW2VI.xsd',
     appParams: {
       DocumentId: 'IRSW2VI-DOC-001',
       Stage: 'original',
